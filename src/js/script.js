@@ -96,4 +96,48 @@ console.log(num5 == num6); //compara
 console.log(num5 === num6); //compara e verifica o tipo da variável
 console.log(num5 != num6); //diferente
 
+//Estrutura condicional
 
+//IF
+
+let Valor = 100;
+
+if(Valor == 100){
+console.log("Valor Correto")
+}
+
+
+//if / else
+
+let Valor1 = 120;
+
+if(Valor1 == 100){
+    console.log("Valor Correto")
+}else{
+    console.log("Valor Errado")
+}
+
+//if / else - encadeado ou aninhado
+
+let Idade = 14;
+
+if(Idade < 14){
+    console.log("Não pode entrar")
+
+}
+else if(Idade >= 14 && Idade <= 18){
+    console.log("Pode entrar")
+}
+else if(Idade > 50 && Idade <70){
+    console.log("Você não tem idade para entrar")
+}
+else{
+    console.log("Fica em casa")
+}
+
+// Condição ternária
+
+let valor2 =300;
+
+let resultado = valor2 == 300 ? "Certo": "Errado"; // ? = if, : = else
+console.log(resultado)
