@@ -79,10 +79,21 @@ console.log(num1 / num2)
 
 //Operadores lógicos
 
-const num3 =20;
+const num3 ="20";
 const num4 =30;
 
 console.log(num3 < num4);
 console.log(num3 < num4 && num4 < 50) //Só se deve usar && (and/e) em questões verdadeiras
 console.log(num3 > num4 || num4 > num3) //Só se deve utilizar || (ou/or) quando pelo menos 1 seja verdadeiro 
-console.log(num3 == num4 || num4 <= num3) // == é comparação
+console.log(num4 === num3 || num4 > num3) // == é comparação
+
+
+//Operadores de Comparação
+const num5 =25;
+const num6 =35;
+
+console.log(num5 == num6); //compara
+console.log(num5 === num6); //compara e verifica o tipo da variável
+console.log(num5 != num6); //diferente
+
+
