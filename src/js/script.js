@@ -185,3 +185,18 @@ do{
     console.log(" do While é ",z)
     z++;
 }while(z <=100)
+
+// Funções
+
+function saudacao(nome){
+    //console.log("Seja bem vindo ", nome)
+    console.log(`Seja bem vindo ${nome}`) // Strings literais
+}
+saudacao("Fiap")
+
+
+function semaforo(){
+    let sinal ="amarelo";
+    console.log(`O semaforo está ${sinal}`)
+}
+semaforo();
