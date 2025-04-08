@@ -141,3 +141,47 @@ let valor2 =300;
 
 let resultado = valor2 == 300 ? "Certo": "Errado"; // ? = if, : = else
 console.log(resultado)
+
+// Switch Case
+
+let time ="Bahia";
+
+switch(time){
+    case "Bahia":
+        console.log("Melhor Time")
+        break;
+    case "São Paulo":
+        console.log("Não é um time")
+        break;
+    case "Palmeiras":
+        console.log("Não tem Mundial")
+        break;
+    default:
+        console.log("Nenhuma das opções")
+        break;
+}
+
+
+// Estrutura de Laço de Repetição
+
+for(let i=0;i<10;i++){
+    console.log("O valor de I é :", i)
+}
+
+// While
+
+let w=0;
+
+while(w <=10){
+console.log("o valor de w é :",w)
+    w++;
+}
+
+// do While
+
+let z= 10;
+
+do{
+    console.log(" do While é ",z)
+    z++;
+}while(z <=100)
